@@ -1,0 +1,19 @@
+# .gitignore
+
+# Конфиденциальные данные
+.env
+.env.local
+.env.dev
+
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+
+# Локальные данные БД
+pgsql_data/
+
+# Служебные файлы
+.DS_Store
+*.log
+*.sqlite
